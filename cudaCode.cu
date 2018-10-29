@@ -170,16 +170,5 @@ Threads
 	free(y);
 }
 
-cudaCode::cudaCode() {
-	cudaEventCreate(&start);
-	cudaEventCreate(&stop);
-
-}
-
-cudaCode::~cudaCode() {
-
-}
-
-
 }
 
